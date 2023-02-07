@@ -1,0 +1,35 @@
+//colors
+$primary-1: #610124;
+$primary-alt: #381019;
+$white: #FFFF;
+$neutral-dark: #000000;
+$neutral-light: #181818;
+$alt: #BFB2A5;
+$magenta: #DA034F;
+
+//fonts
+h1 {
+    font-family:  Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size:45px;
+}
+
+
+h2 {
+    font-family:  Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: 500;
+    font-size:25px;
+}
+h6 {
+    font-family:  Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: 400;
+    font-size:15px;
+}
+
+p {
+    font-family:  Helvetica, sans-serif; 
+}
