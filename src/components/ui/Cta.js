@@ -1,4 +1,3 @@
-//buttons
 import whiteLogo from '../../images/logos/skullcandylogowhite.png'
 //components
 import Button from '../buttons/CtaButton';
@@ -21,7 +20,7 @@ function Cta() {
                             <h6>2023</h6>
                             <h1 className='title'>Discover the deepest dimension of sound<span className='dot'>.</span> </h1>
                         </div>
-                        <h2>Crusher ANC  ® Personalized, <br></br> Noise Cancelling, <br></br>Wireless headphones</h2>
+                        <h2>Crusher ANC  ®  - Personalized Sound, <br></br> 100% Noise Cancelling + <br></br>Wireless Headphones.</h2>
                         <Button> view all </Button>
                     </div>
             </div>

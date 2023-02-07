@@ -39,6 +39,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    
 }
 
 .button {
@@ -53,4 +54,9 @@
 .home__cta {
     display: flex;
     padding-top: 50px;
+    background-color: $primary-1;
+    height: 90vh;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }

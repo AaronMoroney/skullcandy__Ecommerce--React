@@ -13,8 +13,8 @@ function Home() {
                 <Grid />
                 <NavbarRight />
             </div>
+            <div style={{height: '100vh', width: '100vw', backgroundColor: 'black', scrollSnapAlign: 'end'}}></div>
         </div>
-     
     )
 }
 

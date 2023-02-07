@@ -1,12 +1,88 @@
 @import "../utils/variables";
+
 .home__grid {
-    background-color: white;
+    background-color: $white;
     width: 50vw;
-    height: 150vh;
+    height: 152vh;
 }
 .home__grid__parent--items {
-    background-color: white;
+    background-color: $white;
     width: 40vw;
-    height: 150vh;
+    height: 50vh;
+    position: relative;
+}
+
+.items__top--parent {
+    height: 40vh;
+    display: flex;
+    background-color: $neutral-dark;
+   
+}
+.items__accessories--img {
+    background-color: $white;
+    width: 50%;
+}
+.items__accessories {
+    width: 50%;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $neutral-dark;
+}
+.items__middle--parent {
+    height: 40vh;
+    background-color: $white;
+    display: flex;
+    //flex-direction: row-reverse;
+}
+.items__earphones {
+    background-color: $primary-1;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.items__bottom--parent {
+    display: flex;
+    padding-top: 80px;
+}
+.items__bottom--logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    width: 50%;
+    background-color: $neutral-dark;
+}
+.items__bottom--img {
+    height: 35vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $alt;
+}
+
+.home__grid__parent--video {
+    position: relative;
+    height: 30vh;
+    width:100%;
+}
+.video{
+    height: 40vh;
+}
+
+.video-text {
+    position: absolute;
+    margin-left: 20px;
+    color: $magenta;
+    opacity: 50%;
+    padding-top: 30px;
+    z-index: 2;
 }
 
