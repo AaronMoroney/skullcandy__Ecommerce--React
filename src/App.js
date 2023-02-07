@@ -1,11 +1,15 @@
-import './styles/utils/_variables.scss'
+import React from 'react'
+import Home from './components/ui/Home.js'
+//styles
+import './styles/utils/_mixins.scss'
+
 
 function App() {
   return (
-    <div className="App">
-      <p>hello world</p>
-    </div>
+    <>
+        <Home />
+    </>
   );
 }
 
-export default App;
+export default App

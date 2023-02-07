@@ -1,0 +1,56 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.home__cta--logo__div {
+    display: flex;
+    flex-direction: column;
+}
+
+.line__parent {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+ 
+}
+.line {
+    height: 30vh;
+    width: 50%;
+    margin-top: 40px;
+    border-right: solid;
+    border-width: 1px;
+    border-color: $magenta; 
+
+}
+.line--right {
+    height: 30vh;
+    width: 50%;
+    margin-top: 40px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: $magenta; 
+
+}
+
+.home__cta--info__div {
+    color: $white;
+    padding-top: 80px;
+    padding-left: 10px;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+
+.dot {
+    color: $magenta;
+}
+
+.home__cta {
+    display: flex;
+    padding-top: 50px;
+}

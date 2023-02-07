@@ -1,0 +1,16 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.home__parent {
+    margin-top: 0px;
+    height: 100vh;
+    display: flex;
+}
+
+.home {
+    margin: 0;
+    background-color: $primary-1;
+    display: flex;
+    padding-left: 50px;
+    //padding-top: 50px;
+}

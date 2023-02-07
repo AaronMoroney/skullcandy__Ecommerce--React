@@ -1,0 +1,20 @@
+@import './variables';
+
+@mixin standardize__css {
+    margin: 50px;
+}
+
+.standardize {
+    @include standardize__css;
+}
+
+@mixin cta__button {
+    width: 35%;
+    height: 40px;
+    background-color: transparent;
+    border: $white;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 2px; 
+    color: $white;
+}
