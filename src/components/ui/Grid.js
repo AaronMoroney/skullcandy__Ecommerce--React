@@ -17,7 +17,7 @@ function Grid() {
 
                         <div className='items__accessories'>
                             <h2 style = {{marginLeft: '20px', marginTop: '60px'}}>Accessories</h2>
-                            <p style = {{marginLeft: '20px', marginBottom: '30px'}}>View all</p>
+                            <p style = {{marginLeft: '20px', marginBottom: '30px'}}>Coming soon</p>
                         </div>
 
                         <div className='items__accessories--img'>
@@ -30,7 +30,7 @@ function Grid() {
                             <img src={jib} alt='jib' style={{width: '100%', backgroundsize: 'contain', paddingTop: '15px' }}></img>
                         </div>
                         <div className= 'items__earphones'>
-                            <h2 style = {{marginLeft: '20px', marginTop: '60px'}}>Earphones</h2>
+                            <h2 style = {{marginLeft: '20px', marginTop: '60px'}}>Headphones & Earphones</h2>
                             <p style = {{marginLeft: '20px', marginBottom: '30px'}}>View all</p>
                         </div>
                     </div>

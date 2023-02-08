@@ -1,9 +1,9 @@
 //styles
-import '../../styles/components/_home.scss'
+import '../styles/components/_home.scss'
 //components
-import NavbarRight from '../navbar/NavbarRight';
-import Grid from '../../components/ui/Grid.js';
-import Cta from '../ui/Cta.js'
+import NavbarRight from '../components/navbar/NavbarRight';
+import Grid from '../components/ui/Grid.js';
+import Cta from '../components/ui/Cta.js'
 
 function Home() {
     return (
