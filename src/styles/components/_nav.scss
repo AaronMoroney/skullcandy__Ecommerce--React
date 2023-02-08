@@ -1,12 +1,12 @@
 @import "../utils/variables";
+@import "../utils/mixins";
 
 .home__nav {
     width: 25vw;
     background-color: $neutral-dark;
     height: 100vh;
     color: $white;
-    display: flex;
-    flex-direction: row;
+    @include row;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;

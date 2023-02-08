@@ -2,13 +2,11 @@
 @import '../utils/mixins';
 
 .home__cta--logo__div {
-    display: flex;
-    flex-direction: column;
+   @include column;
 }
 
 .line__parent {
-    display: flex;
-    flex-direction: row;
+    @include row;
     height: 100%;
  
 }
@@ -36,10 +34,8 @@
     padding-top: 80px;
     padding-left: 10px;
     height: 35vh;
-    display: flex;
+    @include column;
     justify-content: space-around;
-    flex-direction: column;
-    
 }
 
 .button {

@@ -36,7 +36,7 @@ function Grid() {
                     </div>
 
                     <div className='home__grid__parent--video'>
-                        <h2 className='video-text'> Crusher ANC  ®  - Feel The Sound </h2>
+                        <h2 className='video-text'> Crusher ANC  ®  - <br></br> A New Age For Sound </h2>
                         <video className='video' autoPlay loop muted>
                             <source src={video} type='video/mp4' /> 
                         </video>
