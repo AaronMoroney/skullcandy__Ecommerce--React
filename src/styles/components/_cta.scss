@@ -15,19 +15,10 @@
     width: 50%;
     margin-top: 40px;
     border-right: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: $magenta; 
-
 }
-.line--right {
-    height: 30vh;
-    width: 50%;
-    margin-top: 40px;
-    border-bottom: solid;
-    border-width: 1px;
-    border-color: $magenta; 
 
-}
 
 .home__cta--info__div {
     color: $white;
@@ -51,8 +42,13 @@
     display: flex;
     padding-top: 50px;
     background-color: $primary-1;
-    height: 90vh;
+    height: 100vh;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    background-image: url(../../images/landingBCGimg.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: bottom;
 }

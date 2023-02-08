@@ -3,10 +3,11 @@
 
 .home__nav {
     width: 25vw;
+    height: 150vh;
     background-color: $neutral-dark;
-    height: 100vh;
     color: $white;
-    @include row;
+    @include column;
+    justify-content: space-between;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;

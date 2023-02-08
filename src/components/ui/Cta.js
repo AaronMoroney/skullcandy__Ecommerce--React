@@ -17,11 +17,11 @@ function Cta() {
                     </div>
                     <div className='home__cta--info__div'>
                         <div>
-                            <h6>2023</h6>
+                            <h6>NEW FOR 2023</h6>
                             <h1 className='title'>Discover the deepest dimension of sound<span className='dot'>.</span> </h1>
                         </div>
                         <h2>Crusher ANC  ®  - Personalized Sound, <br></br> 100% Noise Cancelling + <br></br>Wireless Headphones.</h2>
-                        <Button> view all </Button>
+                        <Button/>
                     </div>
             </div>
         </>  
