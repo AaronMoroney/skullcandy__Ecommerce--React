@@ -29,7 +29,6 @@ function GetAllProducts() {
             console.log('data',data);
             setProductInfo(data);
         }); 
-
     }, []);
   
 
@@ -38,23 +37,27 @@ function GetAllProducts() {
             <ShopNav />
             <div className='product__cards__parent'>
                     {productInfo.map(product =>
-                        (<div>
-                            <div className='product__cards--img' >
-                                <img 
-                                    src={product.imageUrl} 
-                                    key={product._id + product.img}
-                                    alt={product.altText}
-                                    style={{width: '25%'}}
-                                >
-                                </img>
-                            </div>
-                            <div className='product__cards--name'>
-                                <h4 key={product._id + product.name}> {product.name} </h4>
-                            </div>
-                            <div className='product__cards--price' key={product._id + product.price }>
-                                <h4> $ {product.price} </h4>
-                            </div>
-                        </div>)
+                        (   
+                            <Link to={`${product._id}`}>
+                             <div>
+                                <div className='product__cards--img' >
+                                    <img 
+                                        src={product.imageUrl} 
+                                        key={product._id + product.img}
+                                        alt={product.altText}
+                                        style={{width: '25%'}}
+                                    >
+                                    </img>
+                                </div>
+                                <div className='product__cards--name'>
+                                    <h4 key={product._id + product.name}> {product.name} </h4>
+                                </div>
+                                <div className='product__cards--price' key={product._id + product.price }>
+                                    <h4> $ {product.price} </h4>
+                                </div>
+                                </div>
+                            </Link>
+                        )
                     )}
             </div>  
         </>
