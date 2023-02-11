@@ -1,0 +1,37 @@
+@import '../utils/_mixins.scss';
+@import '../utils/_variables.scss';
+
+.product__cards__parent {
+    @include row; 
+    align-items: center;
+    margin: 3vh 10vw 5vh 10vw;
+    border-top: 1px solid $grey;
+}
+
+.header-year {
+    font-family: 'Permanent Marker';
+    font-size: 50px; 
+    color: $neutral-light;
+}
+
+.product__cards {
+    height: 55vh;
+    width: 100%;
+    @include column;
+    margin: 1vw;
+}
+
+.product__cards--img {
+    width: 70%;
+    height: 100%;
+}
+
+.product__cards--name {
+    margin-top: 5vh;
+    color: $neutral-dark;
+}
+
+
+.product__cards--price {
+    color: $neutral-light;
+}

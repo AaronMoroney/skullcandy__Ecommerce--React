@@ -1,5 +1,5 @@
 //styles
-import '../styles/components/_home.scss'
+import '../styles/pages/_home.scss'
 //components
 import NavbarRight from '../components/navbar/NavbarRight';
 import Grid from '../components/ui/Grid.js';

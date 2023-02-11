@@ -1,0 +1,10 @@
+@import '../utils/_mixins.scss';
+@import '../utils/_variables.scss';
+
+.infinite__carousel--parent {
+    background-color: $primary-1;
+    height: 8vh;
+    @include column;
+    align-items: center;
+    justify-content: center;
+}
