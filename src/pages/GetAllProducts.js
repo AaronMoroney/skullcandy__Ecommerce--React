@@ -12,9 +12,6 @@ import '../styles/components/_infinite-carousel.scss'
 import ShopNav from '../components/navbar/shopNav.js'
 
 
-//useEffectReact
-//useState
-//calling functions within JSX, returning JSX
 
 function GetAllProducts() {
     const [productInfo, setProductInfo] = useState([]);
@@ -54,6 +51,7 @@ function GetAllProducts() {
                                             alt={product.altText}
                                             style={{  maxWidth: '100%', height: 'auto'}}
                                         >
+                                        
                                         </img>
                                     </div>
                                     <div className='product__cards--name'>
