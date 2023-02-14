@@ -1,0 +1,61 @@
+@import '../utils/_mixins.scss';
+@import '../utils/_variables.scss';
+
+.image__component--parent {
+    background-color: $neutral-dark;
+    height: 90vh;
+    @include row;
+}
+.main__image--wrapper {
+    background-color: $neutral-light;
+    width: 70vw;
+    height: 100%;
+}
+.image__selector--parent {
+    height: 100%;
+    background-color: $neutral-dark;
+    width: 30%;
+}
+.image__selector--image__parent {
+    height: 33%;
+    width: 100%;
+    background-color: $neutral-light;
+    margin: 0% 2.5% 2.5% 2.5%;
+}
+.image__selector--image {
+    width: auto;
+    height: 100%;
+}
+
+.main__image--wrapper {
+    @include row;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+}
+.main__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.main__image--numbers__parent {
+    margin-top: auto;
+    width: 5%;
+    height: auto;
+    margin-left: 5%;
+    margin-bottom: auto;
+    @include column;
+    justify-content: space-between;
+}
+.main__image--numbers {
+    font-size: 22.5px;
+    padding: 20px 0px 20px 0px;
+    color: $grey;
+    opacity: 20%;
+}
+.main__image--numbers--active {
+    font-size: 25px;
+    padding: 10px;
+    color: $magenta;
+    padding: 20px 0px 20px 0px;
+}

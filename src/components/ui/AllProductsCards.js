@@ -8,7 +8,7 @@ import '../../styles/components/_allProductsCards.scss'
 
 
 function AllProductsCards() {
-    const [productInfo, setProductInfo] = useState([]);
+    const [allProductsInfo, setAllProductsInfo] = useState([]);
     const URI = 'http://localhost:3000/api/products';
 
     /*
@@ -20,9 +20,12 @@ function AllProductsCards() {
         .then((response) => response.json())
         .then((data) => { 
             console.log('data',data);
-            setProductInfo(data);
+            setAllProductsInfo(data);
+            
         }); 
     }, []);
+
+  
   
 
     return ( 
@@ -31,15 +34,19 @@ function AllProductsCards() {
                 <h4> <span className ='header-year'>skullcandy collection</span></h4>
         </header>
             <div className='product__cards__parent'>
-                {productInfo.map(product =>
+                
+                {allProductsInfo.map(product =>
+            
+                  
+                    
                     (   
+                        
                         <>
                             <Link to={`${product._id}`} >
                             <div className='product__cards'>
                                 <div className='product__cards--img' >
                                     <img 
                                         src={product.imageUrl} 
-                                        key={product._id + product.img}
                                         alt={product.altText}
                                         style={{  maxWidth: '100%', height: 'auto'}}
                                     >

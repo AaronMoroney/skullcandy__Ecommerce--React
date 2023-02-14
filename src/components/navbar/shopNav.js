@@ -5,7 +5,7 @@ import skullcandywordlogo from '../../images/logos/skullcandylogowordblack.jpeg'
 function ShopNav() {
     return (
         <>
-            <nav style={{height: '6vh', backgroundColor: '#181818'}}>
+            <nav style={{height: '6vh', backgroundColor: '#000000'}}>
                 <div className="logo__container"> 
                     <img src={skullcandywordlogo} alt='skullcandy wordmark with logo' style={{width: '30%', backgroundBlendMode: 'hardlight'}}></img>
                 </div>
