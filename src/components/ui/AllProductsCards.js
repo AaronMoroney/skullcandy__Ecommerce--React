@@ -24,10 +24,7 @@ function AllProductsCards() {
             
         }); 
     }, []);
-
-  
-  
-
+    
     return ( 
         <>
         <header style={{display: 'flex', justifyContent: 'center', marginTop: '2vh' }}>
